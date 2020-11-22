@@ -24,6 +24,7 @@ class ImagemagickAT6 < Formula
   depends_on "freetype"
   depends_on "ghostscript"
   depends_on "jpeg"
+  depends_on "liblqr"
   depends_on "libpng"
   depends_on "libtiff"
   depends_on "libtool"
@@ -31,7 +32,6 @@ class ImagemagickAT6 < Formula
   depends_on "openjpeg"
   depends_on "webp"
   depends_on "xz"
-  depends_on "liblqr"
 
   skip_clean :la
 
