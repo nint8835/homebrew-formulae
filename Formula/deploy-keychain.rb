@@ -11,19 +11,19 @@ class DeployKeychain < Formula
 
   if OS.mac? && Hardware::CPU.intel?
     url "https://github.com/nint8835/deploy-keychain/releases/download/v1.0.0/deploy-keychain_1.0.0_macos_amd64.tar.gz"
-    sha256 "171e0d0015b50ea7d2aa795dfbd35b25567a2c27396c04647d53c045f88933d7"
+    sha256 "190e1cd3730d9e9cf7e2bfb3cd4df915414f300fff73d0d045ea275b1a13b5f2"
   end
   if OS.mac? && Hardware::CPU.arm?
     url "https://github.com/nint8835/deploy-keychain/releases/download/v1.0.0/deploy-keychain_1.0.0_macos_arm64.tar.gz"
-    sha256 "5ea8c04e737ccd83dbf7167c3bd066e08a6e7dc054fc1131e2c34132486cc9e2"
+    sha256 "660f706ffd96985cbc12490f9172c7556ba95faecfaa9aecc406ae3bea4a3e26"
   end
   if OS.linux? && Hardware::CPU.intel?
     url "https://github.com/nint8835/deploy-keychain/releases/download/v1.0.0/deploy-keychain_1.0.0_linux_amd64.tar.gz"
-    sha256 "a68d81d323226f3f9adde9c1dad9a04be0b068b4a3de0d6069987a19e1db6368"
+    sha256 "dcfd6f0740997b7c6c3590d19394d0ba5911667e630938eb021abcc600066784"
   end
   if OS.linux? && Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
     url "https://github.com/nint8835/deploy-keychain/releases/download/v1.0.0/deploy-keychain_1.0.0_linux_arm64.tar.gz"
-    sha256 "37f915c75defa0fc6e9740129e9787578cdebe3206e5420ad7d2396b7e10c7bd"
+    sha256 "3dde5f7867712f49fdca8524a70cae3940509dbe26c357d9c46172306ce20c38"
   end
 
   def install
