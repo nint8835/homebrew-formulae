@@ -7,7 +7,6 @@ class DeployKeychain < Formula
   homepage "https://github.com/nint8835/deploy-keychain"
   version "1.0.0"
   license "MIT"
-  bottle :unneeded
 
   if OS.mac? && Hardware::CPU.intel?
     url "https://github.com/nint8835/deploy-keychain/releases/download/v1.0.0/deploy-keychain_1.0.0_macos_amd64.tar.gz"
