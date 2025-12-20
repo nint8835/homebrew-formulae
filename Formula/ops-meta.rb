@@ -10,7 +10,6 @@ class OpsMeta < Formula
   depends_on "helm"
   depends_on "kubectl-cnpg"
   depends_on "kubernetes-cli"
-  depends_on "opentofu"
   depends_on "sops"
   depends_on "talosctl"
   depends_on "tflint"
