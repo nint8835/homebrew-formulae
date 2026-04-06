@@ -5,7 +5,7 @@ class BorikMeta < Formula
   version "1.0.0"
   sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
-  depends_on "imagemagick"
+  depends_on "imagemagick-full"
   depends_on "pkg-config"
 
   def install
