@@ -12,7 +12,6 @@ class OpsMeta < Formula
   depends_on "kubernetes-cli"
   depends_on "sops"
   depends_on "talosctl"
-  depends_on "tflint"
 
   def install
     (doc+"ops").write <<-EOS
